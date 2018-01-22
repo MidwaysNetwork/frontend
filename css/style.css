@@ -1,5 +1,6 @@
 /* ==== Google font ==== */
 @import url('../fonts/lato.css');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
 
 
 body {
@@ -1344,6 +1345,20 @@ Parallax
 
 .organisation {
     text-align: left;
+}
+
+.well {
+-webkit-transition: all 0.5s linear;
+-moz-transition: all 0.5s linear;
+-ms-transition: all 0.5s linear;
+-o-transition: all 0.5s linear;
+transition: all 0.5s linear;
+cursor: pointer;
+}
+
+.well:hover {
+    color: #FFF;
+    background-color: #5D9CEC;
 }
 /*SECTION-TIMELINE*/
 
